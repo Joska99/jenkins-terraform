@@ -71,7 +71,7 @@ Subcription ID=Subscription ID<br />
 Client ID=Application ID<br />
 Tenant ID=AZ AD ID<br />
 Client Secret=Secret<br />
-- Name it and add Description
+- Name it SA_TF and add Description
 
 4. Create a new Pipeline Project and configure the pipeline section
 - Add "GitHub project"
