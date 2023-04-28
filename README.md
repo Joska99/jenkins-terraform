@@ -1,3 +1,7 @@
+<p align="center">
+<h1>Jenkins CI/CD Terraform deploy to Azur</h1>
+<img src="https://github.com/Joska99/jenkins-terraform/blob/main/diagram.drawio.svg">
+
 <h1> Requariments: </h1>
 
 1. [Jnekins Container](https://github.com/Joska99/joska/tree/main/docker/stateful-jenkins)
@@ -58,6 +62,16 @@ az role assignment create --assignee $SP_ID --role Contributor --scope /subscrip
 2. After instalation, Go to Manage Jenkins → Global Tool Configuration → Click on Terraform Installations → Enable the Install automatically checkbox
 
 3. Add Service Principal values in a credential
+
+> Jenkins portal 
+
+- Go to "Manage Credential" --> "Add credentials"
+- Chose "Azure Service Principal"
+Subcription ID=Subscription ID<br />
+Client ID=Application ID<br />
+Tenant ID=AZ AD ID<br />
+Client Secret=Secret<br />
+- Name it and add Description
 
 4. Create a new Pipeline Project and configure the pipeline section
 - Add "GitHub project"

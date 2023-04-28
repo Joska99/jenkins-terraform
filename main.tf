@@ -10,10 +10,10 @@ terraform {
   # # BACKEND FOR .TFSTATE
   # ######################
   # backend "azurerm" {
-  #   resource_group_name  = "aks-rg"
-  #   storage_account_name = "sa4tstfstate"
-  #   container_name       = "tf-state"
-  #   key                  = "terraform.tfstate.1"
+  #   resource_group_name  = "name-rg"
+  #   storage_account_name = "sa-name"
+  #   container_name       = "c-name"
+  #   key                  = "terraform.tfstate"
   # }
 }
 
