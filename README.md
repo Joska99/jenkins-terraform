@@ -1,5 +1,5 @@
 <p align="center">
-<h1>Jenkins CI/CD Terraform deploy to Azure</h1>
+<h1>Jenkins CD pipeline - Terraform module deploy to Azure</h1>
 <img src="https://github.com/Joska99/jenkins-terraform/blob/main/diagram.drawio.svg">
 
 <h1> Requirements: </h1>
